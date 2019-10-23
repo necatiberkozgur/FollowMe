@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TrackingDevice
+Bundle-SymbolicName: TrackingDevice
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TrackingDevice
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.ekinoks.followme.trackingutils.events,
+ com.google.gson,
+ org.osgi.framework;version="1.8.0"
+Service-Component: src/OSGI-INF/tracking_device.xml
+Bundle-ActivationPolicy: lazy
+Require-Bundle: TrackingUtils
+Bundle-ClassPath: .

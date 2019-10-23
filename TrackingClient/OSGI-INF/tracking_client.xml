@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="TrackingClient" immediate="true">
+   <implementation class="com.ekinoks.followme.commclient.ClientMain"/>
+   <service>
+      <provide interface="com.ekinoks.followme.commclient.ClientMain"/>
+   </service>
+</scr:component>

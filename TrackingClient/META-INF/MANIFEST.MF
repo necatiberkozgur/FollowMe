@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TrackingClient
+Bundle-SymbolicName: TrackingClient
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TrackingClient
+Service-Component: OSGI-INF/tracking_client.xml
+Require-Bundle: org.eclipse.osgi;bundle-version="3.10.101",
+ TrackingUtils;bundle-version="1.0.0",
+ ekinoks.ui;bundle-version="1.0.0"
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
